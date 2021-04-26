@@ -178,3 +178,9 @@ html,body{
     padding: 1vw 5vw;
     margin: 10vw auto;
 }
+.image-project{
+    height: 18vw;
+}
+.project-link:hover{
+    color: #E8C547;
+}
