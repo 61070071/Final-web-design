@@ -1,5 +1,6 @@
 html,body{
     font-family: 'Itim', cursive;
+    scroll-behavior: smooth;
 }
 .bg-main{
     background: #4D5061;
@@ -26,7 +27,7 @@ html,body{
     color: #30323D;
 }
 .color-white{
-    color: #fff;
+    color: #fff !important;
 }
 .w-10{
     width: 10%;
@@ -36,6 +37,9 @@ html,body{
 }
 .w-30{
     width: 30%;
+}
+.w-35{
+    width: 35%;
 }
 .w-40{
     width: 40%;
@@ -170,11 +174,7 @@ html,body{
     height: 1.5vw;
     padding-left: 3vw ;
 }
-.br-skill{
-    border-right: 0.2vw solid slategrey;
-    border-left: 0.2vw solid slategrey;
-    border-radius: 10px;
-}
+
 .image-portfolio{
     border-radius: 50%;
     height: 25vw;
@@ -188,11 +188,57 @@ html,body{
     color: #E8C547;
 }
 .icon-contact{
-    height: 10vw;
+    height: 7vw;
 }
 .contant-link:hover{
     color: #E8C547;
 }
 .active{
+    border-bottom: .25vw solid #5C80BC;
+}
+.active:hover{
     border-bottom: .25vw solid #E8C547;
 }
+
+.br-skill{
+    width: 90%;
+    border-right: 0.2vw solid slategrey;
+    border-left: 0.2vw solid slategrey;
+    border-radius: 10px;
+}
+.detail-skill{
+    width: 50%;
+}
+.box-image-projects{
+    width: 50%;
+}
+
+@media screen and (max-width: 992px){
+    .nav-bar-responsive {
+      width: 100%;
+      align-items: flex-end;
+    }
+    .detail-skill{
+        width: 100%;
+    }
+    .br-skill{
+        width: 40%;
+        margin: 1.5vw auto;
+    }
+}
+/* น้อยกว่า 567  */
+@media screen and (max-width: 576px) {
+    .nav-bar-responsive {
+      width: 10%;
+      align-items: flex-end;
+    }
+    .box-image-projects{
+        width: 100%;
+    }
+    .br-skill{
+        width: 100%;
+        margin: 1.5vw auto;
+    }
+}
+
+
