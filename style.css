@@ -163,6 +163,9 @@ html,body{
 .h-5-v{
     height: 5vw;
 }
+.full-screen{
+    height: 50vw;
+}
 .logo{
     height: 1.5vw;
     padding-left: 3vw ;
@@ -183,4 +186,13 @@ html,body{
 }
 .project-link:hover{
     color: #E8C547;
+}
+.icon-contact{
+    height: 10vw;
+}
+.contant-link:hover{
+    color: #E8C547;
+}
+.active{
+    border-bottom: .25vw solid #E8C547;
 }
